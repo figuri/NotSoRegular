@@ -1,2 +1,0 @@
-# NotSoRegular
-Regex tutorial markdown
