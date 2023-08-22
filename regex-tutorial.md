@@ -8,6 +8,8 @@ Regular expressions are a sequence of characters that define a search pattern. T
 For this instance we will examine the following regular expression :
 /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 
+This expression  is used to validate and extract different parts of a URL. It can be used to validate a URL, extract the protocol, domain name, top-level domain, and path. It can also be used to validate a URL without a protocol, and validate a URL with or without a path.
+
 
 ```javascript```
 
